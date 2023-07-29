@@ -12,11 +12,11 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1690628656,,"wq"
+|2,0,1690653140,,"wq"
 :q
-|2,0,1690622146,,"q"
+|2,0,1690648118,,"q"
 :q!
-|2,0,1690562057,,"q!"
+|2,0,1690647754,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -32,233 +32,352 @@
 |3,1,36,0,1,0,1690557040,"d"
 
 # File marks:
-'0  5  13  ~/flask-app/service.yml
-|4,48,5,13,1690628656,"~/flask-app/service.yml"
-'1  17  14  ~/flask-app/deployment.yml
-|4,49,17,14,1690628620,"~/flask-app/deployment.yml"
+'0  29  41  ~/flask-app/prometheus-config.yml
+|4,48,29,41,1690653140,"~/flask-app/prometheus-config.yml"
+'1  29  41  ~/flask-app/prometheus-config.yml
+|4,49,29,41,1690652647,"~/flask-app/prometheus-config.yml"
 '2  10  0  ~/flask-app/Dockerfile
-|4,50,10,0,1690622146,"~/flask-app/Dockerfile"
-'3  20  0  ~/flask-app/index.html
-|4,51,20,0,1690621905,"~/flask-app/index.html"
-'4  21  0  ~/flask-app/app.py
-|4,52,21,0,1690621721,"~/flask-app/app.py"
-'5  17  14  ~/flask-app/deployment.yml
-|4,53,17,14,1690562142,"~/flask-app/deployment.yml"
-'6  37  13  ~/flask-app/deployment.yml
-|4,54,37,13,1690562057,"~/flask-app/deployment.yml"
-'7  18  13  ~/flask-app/deployment.yml
-|4,55,18,13,1690562057,"~/flask-app/deployment.yml"
-'8  37  13  ~/flask-app/deployment.yml
-|4,56,37,13,1690562057,"~/flask-app/deployment.yml"
-'9  18  13  ~/flask-app/deployment.yml
-|4,57,18,13,1690562057,"~/flask-app/deployment.yml"
+|4,50,10,0,1690652228,"~/flask-app/Dockerfile"
+'3  31  0  ~/flask-app/app.py
+|4,51,31,0,1690652179,"~/flask-app/app.py"
+'4  21  486  ~/flask-app/prometheus-config.yml
+|4,52,21,486,1690651026,"~/flask-app/prometheus-config.yml"
+'5  32  22  ~/flask-app/prometheus-config.yml
+|4,53,32,22,1690651026,"~/flask-app/prometheus-config.yml"
+'6  21  486  ~/flask-app/prometheus-config.yml
+|4,54,21,486,1690651026,"~/flask-app/prometheus-config.yml"
+'7  32  22  ~/flask-app/prometheus-config.yml
+|4,55,32,22,1690651026,"~/flask-app/prometheus-config.yml"
+'8  13  0  ~/flask-app/prometheus-service.yml
+|4,56,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+'9  36  0  ~/flask-app/prometheus-deployment.yml
+|4,57,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
 
 # Jumplist (newest first):
--'  5  13  ~/flask-app/service.yml
-|4,39,5,13,1690628656,"~/flask-app/service.yml"
--'  14  0  ~/flask-app/service.yml
-|4,39,14,0,1690628624,"~/flask-app/service.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690628620,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690628620,"~/flask-app/deployment.yml"
+-'  29  41  ~/flask-app/prometheus-config.yml
+|4,39,29,41,1690653140,"~/flask-app/prometheus-config.yml"
+-'  29  41  ~/flask-app/prometheus-config.yml
+|4,39,29,41,1690652647,"~/flask-app/prometheus-config.yml"
+-'  21  486  ~/flask-app/prometheus-config.yml
+|4,39,21,486,1690652498,"~/flask-app/prometheus-config.yml"
+-'  21  486  ~/flask-app/prometheus-config.yml
+|4,39,21,486,1690652498,"~/flask-app/prometheus-config.yml"
 -'  10  0  ~/flask-app/Dockerfile
-|4,39,10,0,1690622146,"~/flask-app/Dockerfile"
+|4,39,10,0,1690652228,"~/flask-app/Dockerfile"
 -'  10  0  ~/flask-app/Dockerfile
-|4,39,10,0,1690622146,"~/flask-app/Dockerfile"
+|4,39,10,0,1690652228,"~/flask-app/Dockerfile"
 -'  10  0  ~/flask-app/Dockerfile
-|4,39,10,0,1690622146,"~/flask-app/Dockerfile"
+|4,39,10,0,1690652228,"~/flask-app/Dockerfile"
 -'  10  0  ~/flask-app/Dockerfile
-|4,39,10,0,1690622146,"~/flask-app/Dockerfile"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  20  0  ~/flask-app/index.html
-|4,39,20,0,1690621905,"~/flask-app/index.html"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  21  0  ~/flask-app/app.py
-|4,39,21,0,1690621721,"~/flask-app/app.py"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  17  14  ~/flask-app/deployment.yml
-|4,39,17,14,1690562142,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  1  0  ~/flask-app/deployment.yml
-|4,39,1,0,1690562070,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
--'  37  13  ~/flask-app/deployment.yml
-|4,39,37,13,1690562057,"~/flask-app/deployment.yml"
--'  18  13  ~/flask-app/deployment.yml
-|4,39,18,13,1690562057,"~/flask-app/deployment.yml"
+|4,39,10,0,1690652228,"~/flask-app/Dockerfile"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  31  0  ~/flask-app/app.py
+|4,39,31,0,1690652179,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  1  453  ~/flask-app/app.py
+|4,39,1,453,1690651838,"~/flask-app/app.py"
+-'  32  22  ~/flask-app/prometheus-config.yml
+|4,39,32,22,1690651026,"~/flask-app/prometheus-config.yml"
+-'  32  22  ~/flask-app/prometheus-config.yml
+|4,39,32,22,1690651026,"~/flask-app/prometheus-config.yml"
+-'  32  22  ~/flask-app/prometheus-config.yml
+|4,39,32,22,1690651026,"~/flask-app/prometheus-config.yml"
+-'  32  22  ~/flask-app/prometheus-config.yml
+|4,39,32,22,1690651026,"~/flask-app/prometheus-config.yml"
+-'  32  22  ~/flask-app/prometheus-config.yml
+|4,39,32,22,1690651026,"~/flask-app/prometheus-config.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  13  0  ~/flask-app/prometheus-service.yml
+|4,39,13,0,1690650334,"~/flask-app/prometheus-service.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
+-'  36  0  ~/flask-app/prometheus-deployment.yml
+|4,39,36,0,1690650316,"~/flask-app/prometheus-deployment.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/flask-app/prometheus-config.yml
+	*	1690653136	0
+	"	29	41
+	^	29	42
+	.	29	41
+	+	66	117
+	+	44	102
+	+	1	447
+	+	1	14
+	+	1	9
+	+	1	8
+	+	1	420
+	+	21	486
+	+	21	95
+	+	29	117
+	+	21	4
+	+	22	3
+	+	23	5
+	+	24	7
+	+	25	9
+	+	27	5
+	+	28	9
+	+	29	10
+	+	29	41
+
+> ~/flask-app/Dockerfile
+	*	1690652226	0
+	"	10	0
+	^	10	0
+	.	2	14
+	+	13	24
+	+	2	14
+
+> ~/flask-app/app.py
+	*	1690652178	0
+	"	31	0
+	^	31	0
+	.	30	38
+	+	1	319
+	+	1	245
+	+	1	72
+	+	1	369
+	+	50	38
+	+	1	331
+	+	33	7
+	+	1	453
+	+	1	893
+	+	30	38
+
+> ~/flask-app/prometheus-service.yml
+	*	1690650332	0
+	"	13	0
+	^	13	0
+	.	12	20
+	+	50	20
+	+	38	20
+	+	26	20
+	+	12	20
+
+> ~/flask-app/prometheus-deployment.yml
+	*	1690650313	0
+	"	36	0
+	^	36	0
+	.	35	22
+	+	120	22
+	+	1	1040
+	+	1	578
+	+	1	486
+	+	1	485
+	+	1	481
+	+	1	536
+	+	1	1
+	+	93	35
+	+	68	21
+	+	63	14
+	+	35	22
+
+> ~/flask-app/prometheus-service.yaml
+	*	1690648714	0
+	"	13	0
+	^	13	0
+	.	12	20
+	+	12	20
+
+> ~/flask-app/prometheus-deployment.yaml
+	*	1690648686	0
+	"	36	0
+	^	36	0
+	.	35	22
+	+	35	22
+
+> ~/prometheus-deployment.yml
+	*	1690648116	0
+	"	36	0
+	^	36	0
+	.	35	22
+	+	35	22
+
+> ~/prometheus-service.yml
+	*	1690648025	0
+	"	12	19
+	^	12	20
+	.	12	19
+	+	12	19
+
+> ~/flask-app/grafana-service.yml
+	*	1690632863	0
+	"	13	0
+	^	13	0
+	.	12	20
+	+	12	20
+
+> ~/flask-app/grafana-deployment.yml
+	*	1690632836	0
+	"	1	0
+	^	34	0
+	.	33	80
+	+	33	80
+
 > ~/flask-app/service.yml
-	*	1690628654	0
+	*	1690632806	0
 	"	5	13
 	^	5	14
 	.	5	13
@@ -267,7 +386,7 @@
 	+	5	13
 
 > ~/flask-app/deployment.yml
-	*	1690628617	0
+	*	1690632651	0
 	"	17	14
 	^	17	15
 	.	17	14
@@ -286,13 +405,9 @@
 	+	19	29
 	+	17	14
 
-> ~/flask-app/Dockerfile
-	*	1690622144	0
-	"	10	0
-	^	10	0
-	.	2	14
-	+	13	24
-	+	2	14
+> ~/deployment.yaml
+	*	1690632561	0
+	"	1	0
 
 > ~/flask-app/index.html
 	*	1690621902	0
@@ -301,20 +416,6 @@
 	.	19	7
 	+	1	209
 	+	19	7
-
-> ~/flask-app/app.py
-	*	1690621720	0
-	"	21	0
-	^	21	0
-	.	20	38
-	+	1	319
-	+	1	245
-	+	1	72
-	+	1	369
-	+	40	38
-	+	1	331
-	+	23	7
-	+	20	38
 
 > ~/flask-app/requirements.txt
 	*	1690561242	0

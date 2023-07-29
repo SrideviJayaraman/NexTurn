@@ -390,3 +390,328 @@ ls
 vi app.py 
 vi index.html 
 vi Dockerfile 
+aws configure
+aws s3 ls
+export KOPS_STATE_STORE=s3://shre-bucket
+export ZONES="us-east-1a,us-east-1b,us-east-1c"
+ export SERVER_SIZE="t3.medium"
+kops create cluster cluster.shre-bucket --node-count 9 --zones $ZONES --node-size $SERVER_SIZE --master-size $SERVER_SIZE --master-zones $ZONES --networking cilium --topology private --cloud aws --dns private --dns-zone shre.com
+kops get cluster
+ssh-keygen
+kops create secret --name cluster.shre-bucket sshpublickey admin -i ~/.ssh/id_rsa.pub
+kops update cluster cluster.shre-bucket --yes --admin
+export KOPS_STATE_STORE=s3://shre-bucket
+export ZONES="us-east-1a,us-east-1b,us-east-1c"
+kops update cluster cluster.shre-bucket --yes --admin
+sudo yum update
+kops update cluster cluster.shre-bucket --yes --admin
+kops delete cluster cluster.shre-bucket 
+kops delete cluster cluster.shre-bucket --yes
+export KOPS_STATE_STORE=s3://shre-bucket
+export ZONES="us-east-1a,us-east-1b,us-east-1c"
+export SERVER_SIZE="t3.medium"
+kops create cluster cluster.k8s.nexturn.com --node-count 2 --zones $ZONES --node-size $SERVER_SIZE --master-size $SERVER_SIZE --master-zones $ZONES --networking cilium --topology private --cloud aws --dns private --dns-zone k8s.nexturn.com
+kops get cluster 
+ssh-keygen
+kops create secret --name cluster.k8s.nexturn.com sshpublickey admin -i ~/.ssh/id_rsa.pub
+kops update cluster cluster.k8s.nexturn.com --yes --admin
+kubectl get nodes
+export KOPS_STATE_STORE=s3://shre-bucket
+kops validate cluster
+export KOPS_STATE_STORE=s3://shre-bucket
+kops validate cluster
+kops update cluster cluster.k8s.nexturn.com --yes --admin
+kops validate cluster
+kops rolling-update cluster
+kops rolling-update cluster --cloudonly
+kops validate cluster
+export KOPS_STATE_STORE=s3://shre-bucket
+kops validate cluster
+export KOPS_STATE_STORE=s3://shre-bucket
+ssh-keygen
+kops create secret --name cluster.k8s.nexturn.com sshpublickey admin -i ~/.ssh/id_rsa.pub
+kops update cluster cluster.k8s.nexturn.com --yes --admin
+kops get secret
+kops delete secret
+kops delete secret admin
+kops update cluster cluster.k8s.nexturn.com --yes --admin
+kops create secret --name cluster.k8s.nexturn.com sshpublickey admin -i ~/.ssh/id_rsa.pub
+kops update cluster cluster.k8s.nexturn.com --yes --admin
+kops delete secret admin
+kops get secret
+ssh-keygen
+kops create secret --name cluster.k8s.nexturn.com sshpublickey admin -i ~/.ssh/id_rsa.pub
+kops update cluster cluster.k8s.nexturn.com --yes --admin
+kops get secrets --type sshpublickey --name cluster.k8s.nexturn.com
+kops get sshpublickey
+kops delete secret --name cluster.k8s.nexturn.com sshpublickey admin-2
+kops update cluster cluster.k8s.nexturn.com --yes --admin
+kops delete secret 
+kops get secret
+kops delete secret admin
+kops get cluster
+kops delete cluster cluster.k8s.nexturn.com --yes
+export KOPS_STATE_STORE=s3://shre-bucket
+export ZONES="us-east-1a,us-east-1b,us-east-1c"
+export SERVER_SIZE="t3.medium"
+kops create cluster cluster.k8s.nexturn.com --node-count 2 --zones $ZONES --node-size $SERVER_SIZE --master-size $SERVER_SIZE --master-zones $ZONES --networking cilium --topology private --cloud aws --dns private --dns-zone k8s.nexturn.com
+ssh-keygen
+ kops create secret --name cluster.k8s.nexturn.com sshpublickey admin -i ~/.ssh/id_rsa.pub
+kops get cluster
+ kops update cluster cluster.k8s.nexturn.com --yes --admin
+kubectl get nodes
+export KOPS_STATE_STORE=s3://shre-bucket
+kubectl get nodes
+export KOPS_STATE_STORE=s3://shre-bucket
+kops validate cluster
+export KOPS_STATE_STORE=s3://shre-bucket
+kops validate cluster
+[200~kops validate cluster
+Using cluster from kubectl context: cluster.k8s.nexturn.com
+Validating cluster cluster.k8s.nexturn.com
+kubectl config get-contexts
+kubectl config current-context
+aws elb describe-load-balancers
+dig api-cluster-k8s-nexturn-c-l37afg-cb8bff9f27948eae.elb.us-east-1.amazonaws.com
+export KOPS_STATE_STORE=s3://shre-bucket
+kops update cluster --name cluster.k8s.nexturn3.com --yes --admin
+kops update cluster --name cluster.k8s.nexturn.com --yes --admin
+kops rolling-update cluster
+export KOPS_STATE_STORE=s3://shre-bucket
+kops validate cluster
+ls
+cd flask-app
+ls
+kops validate cluster
+vi deployment.yml 
+vi service.yml 
+kubectl apply -f deployment.yml 
+kubectl get deployments
+kubectl apply -f service.yml 
+kubectl get services
+kubectl get deployments
+kubectl get services
+cd ..
+# Add the Helm repositories for Grafana and Prometheus
+helm repo add grafana https://grafana.github.io/helm-charts
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+# Create a namespace for Grafana and Prometheus (optional but recommended)
+kubectl create namespace monitoring
+# Install Grafana
+helm install grafana grafana/grafana --namespace monitoring
+# Install Prometheus
+helm install prometheus prometheus-community/prometheus --namespace monitoring
+helm repo add grafana https://grafana.github.io/helm-charts
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+kubectl create namespace monitoring
+helm install grafana grafana/grafana --namespace monitoring
+kubectl port-forward service/grafana -n monitoring 3000:80
+kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+grafana.monitoring.svc.cluster.local
+export POD_NAME=$(kubectl get pods --namespace monitoring -l "app.kubernetes.io/name=grafana,app.kubernetes.io/instance=grafana" -o jsonpath="{.items[0].metadata.name}")
+kubectl --namespace monitoring port-forward $POD_NAME 3000
+export POD_NAME=$(kubectl get pods --namespace monitoring -l "app.kubernetes.io/name=grafana,app.kubernetes.io/instance=grafana" -o jsonpath="{.items[0].metadata.name}")
+kubectl --namespace monitoring port-forward $POD_NAME 3000:3000
+kubectl get pods --namespace monitoring
+kubectl get services --namespace monitoring
+kubectl --namespace monitoring port-forward $POD_NAME 3000:3000
+kubectl get services --namespace monitoring
+kubectl --namespace monitoring port-forward svc/grafana 3000:80
+kubectl get pods --namespace monitoring
+kubectl --namespace monitoring port-forward svc/grafana 3000:80
+kubectl get pods --namespace monitoring
+kubectl get services --namespace monitoring
+kubectl config current-context
+history
+kubectl --namespace monitoring port-forward svc/grafana 3000:80
+kubectl get services --namespace monitoring
+ export POD_NAME=$(kubectl get pods --namespace monitoring -l "app.kubernetes.io/name=prometheus,app.kubernetes.io/instance=prometheus" -o jsonpath="{.items[0].metadata.name}")
+kubectl --namespace monitoring port-forward $POD_NAME 9090
+sudo yum install git
+git init
+git configure --username Sridevijayaraman
+git --help
+git add .
+git commit -m "mini project"
+git push
+git push https://github.com/SrideviJayaraman/NexTurn
+git push --set-upstream https://github.com/SrideviJayaraman/NexTurn master
+ export POD_NAME=$(kubectl get pods --namespace monitoring -l "app.kubernetes.io/name=prometheus,app.kubernetes.io/instance=prometheus" -o jsonpath="{.items[0].metadata.name}")
+kubectl --namespace monitoring port-forward $POD_NAME 9090
+kops get cluster
+export KOPS_STATE_STORE=s3://shre-bucket
+kops get cluster
+# Add the Helm repositories for Grafana and Prometheus
+helm repo add grafana https://grafana.github.io/helm-charts
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+# Create a namespace for Grafana and Prometheus (optional but recommended)
+kubectl create namespace monitoring
+# Install Grafana
+helm install grafana grafana/grafana --namespace monitoring
+# Install Prometheus
+helm install prometheus prometheus-community/prometheus --namespace monitoring
+kubectl get services --namespace monitoring
+vi deployment.yaml
+ls
+cd flask-app/
+ls
+vi deployment.yml 
+vi service.yml 
+vi grafana-deployment.yml
+vi grafana-service.yml
+kubectl apply -f grafana-deployment.yml 
+kubectl apply -f grafana-service.yml
+kubectl get deplyments
+kubectl get deployments
+kubectl get services
+vi prometheus-deployment.yml
+vi prometheus-service.yml
+kubectl apply -f prometheus-deployment.yml 
+kubectl apply -f prometheus-service.yml 
+kubectl get services
+vi prometheus-config.yml
+kubectl apply -f prometheus-config.yml 
+kubectl apply -f prometheus-deployment.yml 
+kubectl apply -f prometheus-service.yml 
+kubectl get services
+kubectl get deployments
+ls
+rm prometheus-deployment.yml prometheus-service.yml 
+ls
+vi prometheus-deployment.yml 
+vi prometheus-service.yml 
+kubectl apply -f prometheus-deployment.yml 
+kubectl apply -f prometheus-service.yml 
+kubectl get services
+vi prometheus-deployment.yml 
+kubectl apply -f prometheus-deployment.yml 
+kubectl get deployments
+kubectl get services
+ls
+cd flask-app/
+ls
+kubectl get cluster
+aws configure
+export KOPS_STATE_STORE=s3://shre-bucket
+kops get cluster
+kubectl get deployments
+kubectl get services
+kubectl delete service prometheus
+kubectl delete service grafana
+kubectl get services
+kubectl apply -f grafana-deployment.yml 
+kubectl apply -f grafana-service.yml 
+kubectl get services
+kubectl apply -f prometheus--service.yml 
+kubectl apply -f prometheus-service.yml 
+kubectl get services
+ls
+kubectl get services
+vi prometheus-deployment.yml 
+rm prometheus-deployment.yml prometheus-service.yml 
+vi prometheus-deployment.yml 
+vi prometheus-service.yml 
+kubectl get services
+kubectl delete service prometheus
+kubectl apply -f prometheus-deployment.yml 
+kubectl apply -f prometheus-service.yml 
+kubectl get services
+vi prometheus-deployment.yml 
+kubectl get services
+kubectl delete service prometheus-service
+kubectl get services
+kubectl delete service prometheus-service
+kubectl get services
+vi prometheus-service.yml 
+kubectl apply -f prometheus-service.yml 
+vi prometheus-deployment.yml 
+kubectl apply -f prometheus-deployment.yml 
+kubectl apply -f prometheus-service.yml 
+kubectl get services
+vi prometheus-deployment.yml 
+kubectl get services
+kops get pods
+kubectl get pods
+kubectl logs prometheus-7c495474d8-ngl6p
+kubectl delete service prometheus-service
+kubectl get services
+kubectl delete service prometheus-service
+kubectl get services
+rm prometheus-deployment.yml 
+rm prometheus-service.yml 
+ls
+cd flask-app/
+ls
+kubectl get services
+kubectl get deployments
+kubectl delete deployments prometheus
+rm prometheus-config.yml prometheus-deployment.yml prometheus-service.yml 
+ls
+vi prometheus-deployment.yaml
+vi prometheus-service.yaml 
+kubectl apply -f prometheus-deployment.yaml
+kubectl apply -f prometheus-service.yaml 
+kubectl get deployments
+kubectl get services
+kubectl get pods
+kubectl logs prometheus-84cb8f9fdb-2kxbn
+vi prometheus-config.yml
+kubectl create configmap prometheus-config --from-file=prometheus-config.yml
+rm prometheus-config.yml prometheus-deployment.yaml prometheus-service.yaml 
+kubectl delete prometheus-84cb8f9fdb-2kxbn  
+kubectl get services
+kubectl delete service prometheus
+kubectl delete deployment prometheus
+vi prometheus-config.yml
+kubectl create configmap prometheus-config --from-file=prometheus-config.yml
+kubectl apply -f prometheus-config.yml
+vi prometheus-config.yml
+kubectl apply -f prometheus-config.yml
+vi prometheus-config.yml
+kubectl apply -f prometheus-config.yml
+kubectl create configmap prometheus-config --from-file=prometheus-config.yml
+vi prometheus-deployment.yml 
+vi prometheus-service.yml 
+kubectl apply -f prometheus-deployment.yaml
+kubectl apply -f prometheus-service.yaml
+kubectl apply -f prometheus-service.yml
+kubectl apply -f prometheus-deployment.yml
+kubectl get services
+kubectl get pods
+kubectl get services
+kubectl get pods
+kubectl logs prometheus-84cb8f9fdb-vzw96
+kubectl describe pod prometheus-84cb8f9fdb-vzw96
+vi prometheus-config.yml 
+kubectl apply -f prometheus-config.yml
+vi prometheus-deployment.yml 
+vi prometheus-service.yml 
+kubectl apply -f prometheus-deployment.yml
+kubectl apply -f prometheus-service.yml
+kubectl get pods
+kubectl get services
+kubectl get pods
+vi prometheus-config.yml 
+pip install prometheus-client
+pip install prometheus-log-exporter
+vi app.py
+vi Dockerfile 
+docker build -t python-app .
+docker run -d -p 5000:5000 -p 8080:8080 python-app
+python app.py 
+vi prometheus-config.yml 
+kubectl apply -f prometheus-config.yml
+vi prometheus-config.yml 
+cat log.txt
+kubectl get services
+cat log.txt
+docker push sridevi/python-app:latest
+docker build -t sridevi/python-app:latest .
+docker images
+docker push sridevi/python-app:latest
+docker login
+docker push sridevi/python-app:latest
+docker push sridevi4/python-app:latest
+cat log.txt
+kubectl get svc
+cd ..
